@@ -19,7 +19,7 @@ app.post("/", (req, res) => {
     url: 'https://apiv2.bitcoinaverage.com/convert/global',
     method: 'GET',
     headers: {
-      'x-ba-key': 'ZjE5MDMyN2NmNDk1NGM4ZThhMjUzNjRkNjNlMTgxOWY'
+      'x-ba-key': 'ZjE5MDMyN2NmNDk1NGM4ZThhMjUzNjRkNjNlMTgxOWY' //Your API Key here
     },
     qs: {
       from: crp,
@@ -29,7 +29,6 @@ app.post("/", (req, res) => {
   }
   request(options, (error, status, body)=>{
     let data = JSON.parse(body);
-    console.log(data)
     res.send(`<body style="width:100vw; height:100vh; overflow:hidden;    background: url('https://cdn-wp.code-brew.com/wp-content/uploads/2018/10/Feature-Image-How-Cryptocurrency-is-disrupting-the-Global-Economy-.jpg');" ><h1 style="text-align:center; margin-top:300px;color:white"; >1 ${crp} is equal to ${data.price} ${crc}</h1></body>`);
   }
   );

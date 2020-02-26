@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "back end basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geek838/Murica2Europe.git"
+  },
+  "author": "Sulkhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geek838/Murica2Europe/issues"
+  },
+  "homepage": "https://github.com/Geek838/Murica2Europe#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}

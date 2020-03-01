@@ -1,42 +1,60 @@
 body {
-    background: url('https://cdn-wp.code-brew.com/wp-content/uploads/2018/10/Feature-Image-How-Cryptocurrency-is-disrupting-the-Global-Economy-.jpg')  ;
+  background: url("https://cdn-wp.code-brew.com/wp-content/uploads/2018/10/Feature-Image-How-Cryptocurrency-is-disrupting-the-Global-Economy-.jpg");
 }
-*{
-    font-family: 'Montserrat' ;
-    font-size: 1.1rem;
+
+* {
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
 }
 
 form {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 300px 300px 50px;
-}
-label {
-    color: white;
-}
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;  
-    margin: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 300px 300px 50px;
 }
 
-.wrapper>select {
-    margin-top: 10px;
-    width: 200px;
-    height: 30px;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow:  0px 1px 5px cyan;
+form .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 50px;
 }
 
-
-
-button {
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px 1px indigo;
-    border:none;
-    height: 35px;
-    margin-top: 30px;
+form .wrapper label {
+  color: white;
 }
+
+form .wrapper select {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 5px cyan;
+          box-shadow: 0px 1px 5px cyan;
+}
+
+form button {
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 5px 1px indigo;
+          box-shadow: 1px 1px 5px 1px indigo;
+  border: none;
+  height: 35px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
